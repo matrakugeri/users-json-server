@@ -1,85 +1,13 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Chris",
-      "lastName": "Garcia",
-      "gender": "male",
-      "job": "Engineer",
-      "date": "2020-09-07",
-      "archived": false
-    },
-    {
-      "id": 2,
-      "firstName": "Gary",
-      "lastName": "Taylor",
-      "gender": "female",
-      "job": "Developer",
-      "date": "2025-04-17",
-      "archived": false
-    },
-    {
-      "id": 3,
-      "firstName": "John",
-      "lastName": "Taylor",
-      "gender": "female",
-      "job": "Engineer",
-      "date": "2020-08-08",
-      "archived": false
-    },
-    {
-      "id": 4,
-      "firstName": "Emma",
-      "lastName": "Garcia",
-      "gender": "male",
-      "job": "Product Owner",
-      "date": "2021-06-28",
-      "archived": false
-    },
-    {
-      "id": 5,
-      "firstName": "Emma",
-      "lastName": "Taylor",
-      "gender": "female",
-      "job": "Analyst",
-      "date": "2025-04-27",
-      "archived": false
-    },
-    {
-      "id": 6,
-      "firstName": "David",
-      "lastName": "Taylor",
-      "gender": "female",
-      "job": "Consultant",
-      "date": "2025-05-09",
-      "archived": true
-    },
-    {
-      "id": 7,
-      "firstName": "Alex",
-      "lastName": "Johnson",
-      "gender": "male",
-      "job": "Intern",
-      "date": "2023-09-14",
-      "archived": false
-    },
-    {
       "id": 8,
-      "firstName": "Alex",
+      "firstName": "Alexander",
       "lastName": "Davis",
       "gender": "male",
       "job": "Product Owner",
       "date": "2023-01-14",
       "archived": true
-    },
-    {
-      "id": 9,
-      "firstName": "Sarah",
-      "lastName": "Garcia",
-      "gender": "male",
-      "job": "Developer",
-      "date": "2022-08-07",
-      "archived": false
     },
     {
       "id": 10,
@@ -88,7 +16,7 @@
       "gender": "female",
       "job": "Intern",
       "date": "2021-04-11",
-      "archived": true
+      "archived": false
     },
     {
       "id": 11,
@@ -898,6 +826,78 @@
       "gender": "male",
       "job": "Product Owner",
       "date": "2022-09-14",
+      "archived": false
+    },
+    {
+      "id": 1753890635726,
+      "firstName": "Gery",
+      "lastName": "Tay",
+      "gender": "male",
+      "job": "Developer",
+      "date": "2025-03-17",
+      "archived": false
+    },
+    {
+      "id": 1753898376827,
+      "firstName": "James",
+      "lastName": "Trafford",
+      "gender": "male",
+      "job": "Goalkeeper",
+      "date": "2004-03-17",
+      "archived": true
+    },
+    {
+      "id": 1753898876001,
+      "firstName": "test",
+      "lastName": "test",
+      "gender": "female",
+      "job": "jobb",
+      "date": "2025-07-24",
+      "archived": true
+    },
+    {
+      "id": 1753961577109,
+      "firstName": "Old",
+      "lastName": "User",
+      "gender": "female",
+      "job": "Engineer",
+      "date": "2025-07-17",
+      "archived": true
+    },
+    {
+      "id": 1754046364136,
+      "firstName": "Chris",
+      "lastName": "Gaucho",
+      "gender": "male",
+      "job": "Goalkeeper",
+      "date": "2025-08-22",
+      "archived": true
+    },
+    {
+      "id": 1754054534140,
+      "firstName": "44444",
+      "lastName": "Doe",
+      "gender": "Male",
+      "job": "Developer",
+      "date": "2023-01-01",
+      "archived": false
+    },
+    {
+      "id": 1754054738753,
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "Male",
+      "job": "Developer",
+      "date": "2023-01-01",
+      "archived": false
+    },
+    {
+      "id": 1754059640464,
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "Male",
+      "job": "Developer",
+      "date": "2023-01-01",
       "archived": false
     }
   ]

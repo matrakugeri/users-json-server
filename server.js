@@ -19,8 +19,17 @@ function writeDB(db) {
 
 // GET /users (with filters)
 app.get("/users", (req, res) => {
-  const { firstName, lastName, gender, job, archived, date, start, limit } =
-    req.query;
+  const {
+    firstName,
+    lastName,
+    gender,
+    job,
+    archived,
+    date,
+    keyword,
+    start,
+    limit,
+  } = req.query;
   let users = readDB().users;
 
   if (firstName)
@@ -39,6 +48,15 @@ app.get("/users", (req, res) => {
   if (date) users = users.filter((u) => u.date === date);
   if (archived !== undefined)
     users = users.filter((u) => u.archived === (archived === "true"));
+
+  if (keyword) {
+    const lowerKeyword = keyword.toLowerCase();
+    users = users.filter((u) =>
+      [u.firstName, u.lastName, u.gender, u.job, u.date]
+        .filter(Boolean)
+        .some((field) => field.toLowerCase().includes(lowerKeyword))
+    );
+  }
 
   const total = users.length;
 
