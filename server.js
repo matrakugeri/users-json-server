@@ -29,6 +29,8 @@ app.get("/users", (req, res) => {
     keyword,
     start,
     limit,
+    sortDirection = null,
+    sortField,
   } = req.query;
   let users = readDB().users;
 
@@ -56,6 +58,26 @@ app.get("/users", (req, res) => {
         .filter(Boolean)
         .some((field) => field.toLowerCase().includes(lowerKeyword))
     );
+  }
+
+  if (sortField && (sortDirection === "asc" || sortDirection === "desc")) {
+    users.sort((a, b) => {
+      const aVal = a[sortField];
+      const bVal = b[sortField];
+
+      if (aVal == null) return 1;
+      if (bVal == null) return -1;
+
+      if (typeof aVal === "string" && typeof bVal === "string") {
+        return sortDirection === "desc"
+          ? bVal.localeCompare(aVal)
+          : aVal.localeCompare(bVal);
+      }
+
+      if (aVal < bVal) return sortDirection === "desc" ? 1 : -1;
+      if (aVal > bVal) return sortDirection === "desc" ? -1 : 1;
+      return 0;
+    });
   }
 
   const total = users.length;

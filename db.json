@@ -3,7 +3,7 @@
     {
       "id": 8,
       "firstName": "Alexander",
-      "lastName": "Davis",
+      "lastName": "Dennis",
       "gender": "male",
       "job": "Product Owner",
       "date": "2023-01-14",
@@ -872,15 +872,6 @@
       "job": "Goalkeeper",
       "date": "2025-08-22",
       "archived": true
-    },
-    {
-      "id": 1754054534140,
-      "firstName": "44444",
-      "lastName": "Doe",
-      "gender": "Male",
-      "job": "Developer",
-      "date": "2023-01-01",
-      "archived": false
     },
     {
       "id": 1754054738753,
