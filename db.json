@@ -1,66 +1,12 @@
 {
   "users": [
     {
-      "id": 8,
-      "firstName": "Alexander",
-      "lastName": "Dennis",
-      "gender": "male",
-      "job": "Product Owner",
-      "date": "2023-01-14",
-      "archived": true
-    },
-    {
-      "id": 10,
-      "firstName": "Emma",
-      "lastName": "Smith",
-      "gender": "female",
-      "job": "Intern",
-      "date": "2021-04-11",
-      "archived": false
-    },
-    {
-      "id": 11,
-      "firstName": "Michael",
-      "lastName": "Jones",
-      "gender": "male",
-      "job": "Intern",
-      "date": "2022-01-02",
-      "archived": false
-    },
-    {
-      "id": 12,
-      "firstName": "John",
-      "lastName": "Taylor",
-      "gender": "male",
-      "job": "Product Owner",
-      "date": "2023-10-11",
-      "archived": true
-    },
-    {
       "id": 13,
       "firstName": "Emily",
       "lastName": "Smith",
-      "gender": "female",
+      "gender": "male",
       "job": "Manager",
       "date": "2024-04-13",
-      "archived": true
-    },
-    {
-      "id": 14,
-      "firstName": "Michael",
-      "lastName": "Davis",
-      "gender": "female",
-      "job": "Analyst",
-      "date": "2021-08-01",
-      "archived": true
-    },
-    {
-      "id": 15,
-      "firstName": "Jane",
-      "lastName": "Davis",
-      "gender": "female",
-      "job": "Analyst",
-      "date": "2022-12-02",
       "archived": true
     },
     {
@@ -137,7 +83,7 @@
     },
     {
       "id": 24,
-      "firstName": "Chris",
+      "firstName": "Christian",
       "lastName": "Martinez",
       "gender": "male",
       "job": "Intern",
@@ -197,15 +143,6 @@
       "job": "Manager",
       "date": "2024-06-03",
       "archived": true
-    },
-    {
-      "id": 31,
-      "firstName": "Sarah",
-      "lastName": "Smith",
-      "gender": "male",
-      "job": "Manager",
-      "date": "2021-03-24",
-      "archived": false
     },
     {
       "id": 32,
@@ -709,7 +646,7 @@
       "gender": "female",
       "job": "Product Owner",
       "date": "2020-05-11",
-      "archived": true
+      "archived": false
     },
     {
       "id": 88,
@@ -844,15 +781,6 @@
       "gender": "male",
       "job": "Goalkeeper",
       "date": "2004-03-17",
-      "archived": true
-    },
-    {
-      "id": 1753898876001,
-      "firstName": "test",
-      "lastName": "test",
-      "gender": "female",
-      "job": "jobb",
-      "date": "2025-07-24",
       "archived": true
     },
     {
